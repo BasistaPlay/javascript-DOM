@@ -1,42 +1,48 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="lv">
 <head>
-<title>DOM Atomic 02</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programmēšana</title>
 </head>
 <body>
 
-<div class="show_me">
-<h1>Labvakar!</h1>
-</div>
+    <div class="pazud">
+        Kā mai Sauc?
+    </div>
 
-<div class="show_me">
-    Labrrīt<br>
-</div>
+    <div class="pazud">
+        Kāds mans uzvārds?
+    </div>
 
-<div class="show_me">
-    Labdien!!<br>
-</div>
+    <div class="paradas" style="display: none;">
+        Mani Sauc Edvards!
+    </div>
 
-<div class="hide_me">
-    Es nekur nepazūdīšu!
-</div>
+    <div class="paradas" style=display:none;>
+        Mans uzvārds ir Torsters-Makauskis.
+    </div>
 
-<div class="hide_me">
-    Es nekur nepazūdīšu!
-</div>
+    <button id="poga">Atbildes</button>
+
+    <script type="text/javascript">
+
+const hideMeElements = document.querySelectorAll(".paradas")
+const button = document.querySelector("#poga")
 
 
-<button id="button">Hide</button>
+button.addEventListener('click', function(e) {
+    hideMeElements.forEach(function(element) {
+        element.style.display = "initial";
+        
 
-<script type="text/javascript" src="js.js"></script>
+    })
+})
+
+
+
+
+        </script>
 </body>
 </html>
-
-
-<style>
-.show_me{
-display: none;
-}
-
-
-</style>
