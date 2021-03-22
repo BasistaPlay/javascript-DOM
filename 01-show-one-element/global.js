@@ -1,7 +1,7 @@
   
 window.addEventListener("load", function(){
-  const button = document.querySelector("#more_text_link")
-  const textToShow = document.querySelector("#more_text_content")
+  const button = document.querySelector("a")
+  const textToShow = document.querySelector("span")
   textToShow.style.display = "none"
 
 
