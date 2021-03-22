@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
         {
             elements.forEach(function(element) {
                 toggleStatus = true
-                element.style.display = 'initial'
+                element.style.display = 'flex'
             })
         }
         else
