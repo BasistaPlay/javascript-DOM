@@ -6,7 +6,7 @@
 
 > If you click the link to reveal more text and then refresh the page, does the text remain revealed, or is it hidden again? Why?
 
-Your reply here...
+1.Kad parlādē lapu tad vis atgriezas, jo visi skripti arī restartejas.
 
 ---
 
