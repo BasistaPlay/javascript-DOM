@@ -11,11 +11,3 @@ window.addEventListener("load", function(){
   })
 });
 
-
-/*
-
-1.Kad parlādē lapu tad vis atgriezas, jo visi skriti arī restartejas.
-2.Skripts nestrādās, jo html klases neredzēs js.
-3.
-
-*/
